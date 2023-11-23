@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+h1 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 139, 0.452);
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#tarefa li.completed {
+    text-decoration: line-through;
+}
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
